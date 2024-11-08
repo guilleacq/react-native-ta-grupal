@@ -160,7 +160,7 @@ export default function App() {
           <Text style={styles.addButtonText}>+ Nueva Tarea</Text>
         </TouchableOpacity>
 
-        <AddNewSheet
+        <NewTaskSheet
           bottomSheetRef={bottomSheetRef}
           snapPoints={snapPoints}
           newTask={newTask}

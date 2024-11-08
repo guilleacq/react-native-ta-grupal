@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import BottomSheet, { BottomSheetScrollView } from '@gorhom/bottom-sheet';
 
-const AddTaskSheet = ({ 
+const NewTaskSheet = ({ 
   bottomSheetRef, 
   snapPoints, 
   newTask, 
